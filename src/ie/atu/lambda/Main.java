@@ -21,10 +21,10 @@ public class Main {
         
         // Test the combined operation
         String input = "  Hello World!  ";
-        String result = combinedFunction.apply(input);
+        String result2 = combinedFunction.apply(input);
         
         // Output the result
-        System.out.println("Result: \"" + result + "\""); // Expected: "hello world!"
+        System.out.println("Result: \"" + result2 + "\""); // Expected: "hello world!"
     }
     
 }
