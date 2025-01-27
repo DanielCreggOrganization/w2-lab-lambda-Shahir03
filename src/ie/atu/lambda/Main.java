@@ -20,7 +20,7 @@ public class Main {
         Function<String, String> combinedFunction = trimFunction.andThen(str -> str.toLowerCase());
         
         // Test the combined operation
-        String input = "  Hello World!  ";
+        String input = "  Hello sir  ";
         String result2 = combinedFunction.apply(input);
         
         // Output the result
