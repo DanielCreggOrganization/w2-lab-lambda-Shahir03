@@ -1,5 +1,5 @@
 package ie.atu.testpackage;
 
-public interface MathOperation {
-
+interface MathOperation {
+    int operate(int a, int b); // Single abstract method
 }
